@@ -1,0 +1,12 @@
+main>ul>li>hover::after{
+    content: ' 👈';
+    color: 'green';
+}
+
+main>ul>li ::before{
+    content: ' 👈';
+    color: 'green';
+}
+ul{
+    list-style-type: none;
+}
